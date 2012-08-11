@@ -10,7 +10,7 @@ table, th, td{
 }
 
 .name{
-	color: #222222;
+	color: #333333;
 	font-family: "Lucida Sans";
 	font-size: 30px;
 	text-decoration: none;
@@ -32,3 +32,4 @@ table, th, td{
 
 #floater	{float:left; height:20%; margin-bottom:-120px;}
 #content	{clear:both; height:500px; position:relative;}
+#mainImage {background-image: url('1024/ianwill1.jpg');}

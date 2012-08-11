@@ -1,18 +1,22 @@
 <html>
 <head>
 	<LINK href="gallery.css" rel="stylesheet" type="text/css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="gallery.js"> </script>
 </head>
 <body>
 	<div id="floater"></div>
 	<div id="content">
 
 	<table align="center" id="main_table">
-	<tr><td align="left" class="table_head"><span class="name"><a class="name" href="#">Ian Will</a></span></td>
+	<tr width="1024"><td align="left" class="table_head"><span class="name"><a class="name" href="#">Ian Will</a></span></td>
 		<td align="right" class="table_head"><span class="buy"><a class="buy" href="#">purchase</a></span></td></tr>
-	<tr><td colspan="2">
+	<tr><td colspan="2" width="1024">
+		<center>
 		<div id="image">
-			<img src="1024/ianwill1.jpg"/>
+			<canvas id="mainImage" width="1024" height="683" onClick="fadeOut()"></canvas>	
 		</div>
+	</center>
 	</td></tr>
 	<tr><td align="center" colspan="2"><span class="buy">&#64; Ian Will 2012</span></td></tr>
 	</table>
