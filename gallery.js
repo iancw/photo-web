@@ -1,6 +1,6 @@
 
 var currentImg=0;
-var allImages=18;
+var allImages=24;
 
 var images=[];
 
@@ -17,7 +17,7 @@ function loadImages()
 }
 
 function fadeOut(){
-	$('#mainImage').fadeTo(800, 0.0, fadeIn)
+	$('#mainImage').fadeTo(1500, 0.0, fadeIn)
 }
 
 function fadeIn(){
@@ -25,5 +25,5 @@ function fadeIn(){
 	var actImg = images[currentImg];
 	$('#mainImage').css({'background-image':"url('" +actImg.src + "')"});
 	$('#mainImage').attr({ width: actImg.width, height: actImg.height});
-	$('#mainImage').fadeTo(800, 1.0, function(){ setTimeout(fadeOut, 5000); });
+	$('#mainImage').fadeTo(1500, 1.0, function(){ setTimeout(fadeOut, 5000); });
 }
