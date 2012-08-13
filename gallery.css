@@ -4,23 +4,58 @@ body{
 
 table, th, td{
 	padding-top:10px;
-	padding-bottom:10px;
+	padding-bottom:2px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 .name{
 	color: #333333;
-	font-family: "Lucida Sans";
+	font-family: "Arial";
 	font-size: 30px;
 	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.name2{
+	color: #EEEEEE;
+	letter-spacing: 3px;
+}
+
+.name3{
+		color: #EEEEEE;
+	letter-spacing: 4px;
+}
+
+.name4{
+		color: #EEEEEE;
+	letter-spacing: 5px;
+}
+
+.name5{
+		color: #EEEEEE;
+		letter-spacing: 6px;
+}
+
+.name6{
+		color: #EEEEEE;
+		letter-spacing: 7px;
 }
 
 .buy{
-	color:#999999;
+	color:#888888;
 	font-family: "Arial";
 	font-size: 15px;
 	text-decoration: none;
+}
+
+.copyright{
+	color:#999999;
+	font-family: "Arial";
+	font-size: 8px;
+	text-decoration: none;
+	padding-top:2px;
+	text-align: center;
 }
 .table_head{
 	padding-top: 3px;
@@ -31,5 +66,7 @@ table, th, td{
 }
 
 #floater	{float:left; height:20%; margin-bottom:-120px;}
-#content	{clear:both; height:500px; position:relative;}
-#mainImage {background-image: url('1024/ianwill1.jpg');}
+#content	{clear:both; height:570px; position:relative;}
+#nameCell {padding-left: 220px;}
+#purchaseCell {padding-right: 220px;}
+#mainImage {background-image: url('570/ianwill1.jpg');}	

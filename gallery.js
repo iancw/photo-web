@@ -11,13 +11,14 @@ function loadImages()
 	for(i=0; i<allImages; i++)
 	{
 		var img=new Image();
-		img.src='1024/ianwill'+(i+1)+'.jpg';
+		img.src='570/ianwill'+(i+1)+'.jpg';
 		images[images.length] = img;
 	}
+	setTimeout(fadeOut, 5000);
 }
 
 function fadeOut(){
-	$('#mainImage').fadeTo(1500, 0.0, fadeIn)
+	$('#mainImage').fadeTo(1100, 0.0, fadeIn)
 }
 
 function fadeIn(){
@@ -25,5 +26,5 @@ function fadeIn(){
 	var actImg = images[currentImg];
 	$('#mainImage').css({'background-image':"url('" +actImg.src + "')"});
 	$('#mainImage').attr({ width: actImg.width, height: actImg.height});
-	$('#mainImage').fadeTo(1500, 1.0, function(){ setTimeout(fadeOut, 5000); });
+	$('#mainImage').fadeTo(800, 1.0, function(){ setTimeout(fadeOut, 5000); });
 }
