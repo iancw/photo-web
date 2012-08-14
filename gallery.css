@@ -10,44 +10,13 @@ table, th, td{
 }
 
 .name{
-	color: #333333;
+	color: #EEEEEE;
 	font-family: "Arial";
 	font-size: 30px;
 	text-decoration: none;
 	letter-spacing: 2px;
 }
 
-.name2{
-	color: #EEEEEE;
-	letter-spacing: 3px;
-}
-
-.name3{
-		color: #EEEEEE;
-	letter-spacing: 4px;
-}
-
-.name4{
-		color: #EEEEEE;
-	letter-spacing: 5px;
-}
-
-.name5{
-		color: #EEEEEE;
-		letter-spacing: 6px;
-}
-
-.name6{
-		color: #EEEEEE;
-		letter-spacing: 7px;
-}
-
-.buy{
-	color:#888888;
-	font-family: "Arial";
-	font-size: 15px;
-	text-decoration: none;
-}
 
 .copyright{
 	color:#999999;
@@ -55,14 +24,32 @@ table, th, td{
 	font-size: 8px;
 	text-decoration: none;
 	padding-top:2px;
-	text-align: center;
+	padding-right: 110px;
+	text-align: right;
 }
+
 .table_head{
 	padding-top: 3px;
 	padding-bottom:3px;
 	padding-left: 30px;
 	padding-right: 30px;
 	vertical-align: bottom;
+}
+
+.about {
+	padding-left: 220px;
+	text-align: left;
+}
+
+a{
+	color:#888888;
+	font-family: "Arial";
+	font-size: 15px;
+	text-decoration: none;
+}
+
+a:hover {
+	  color: red ;
 }
 
 #floater	{float:left; height:20%; margin-bottom:-120px;}

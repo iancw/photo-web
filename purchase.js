@@ -34,6 +34,10 @@ function sampleWithFrame(){
 	ctx.lineWidth=8;
 	ctx.fillRect(0, 0, canvWidth, canvHeight);
 	ctx.strokeRect(0, 0, canvWidth, canvHeight);
+	ctx.strokeStyle="#CCCCCC";
+	ctx.lineWidth=2;
+	//Two pixels on either side of the image...
+	ctx.strokeRect(extra-1, extra-1, image.width+2, image.height+2);
 	ctx.drawImage(image, extra,extra);
 	$('#widthSpan').html((canvWidth * 20.0/420.0)+'"');
 	$('#heightSpan').html((canvHeight * 16.0/280.0)+'"');
